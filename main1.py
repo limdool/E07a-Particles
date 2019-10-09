@@ -41,16 +41,16 @@ class Particle(arcade.Sprite):
         self.color_pos = 0
 
         self.particle_colors = [
-            (open_color.violet_7, 8)
-            ,(open_color.violet_6, 7)
-            ,(open_color.violet_5, 6)
-            ,(open_color.violet_4, 5)
-            ,(open_color.violet_3, 4)
-            ,(open_color.grape_3, 4)
-            ,(open_color.grape_4, 5)
-            ,(open_color.grape_5, 6)
-            ,(open_color.grape_6, 7)
-            ,(open_color.grape_7, 8)
+            (open_color.red_9, 8)
+            ,(open_color.red_8, 7)
+            ,(open_color.red_7, 6)
+            ,(open_color.red_6, 5)
+            ,(open_color.red_5, 4)
+            ,(open_color.yellow_4, 7)
+            ,(open_color.yellow_3, 6)
+            ,(open_color.yellow_2, 5)
+            ,(open_color.yellow_1, 4)
+            ,(open_color.yellow_0, 3)
         ]
         (self.color, self.lifetime) = self.particle_colors[self.color_pos]
         self.alive = True
